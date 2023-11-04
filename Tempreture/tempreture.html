@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Converter</title>
+    <link rel="stylesheet" href="tempreture.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;600&family=Poppins:wght@100;200;300;500;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="optionmain">
+                <h4>Convert in</h4>
+                <select id="option1" onchange=getvalue1();>
+                    <option class="Non" selected></option>
+                    <option class="Celcius">Celcius</option>
+                    <option class="Fahrenhiet">Fahrenhiet</option>
+                    <option class="Kelvin">Kelvin</option>
+                    <input id="in" type="number">
+                </select>
+            </div>
+            <div class="optionmain1">
+                <h4 class="to">Convert to</h4>
+                <select id="option2" onchange=getvalue2();>
+                    <option class="Non" selected></option>
+                    <option class="Celcius1">Celcius</option>
+                    <option class="Fahrenhiet1">Fahrenhiet</option>
+                    <option class="Kelvin1">Kelvin</option>
+                </select>
+            </div>
+            <button class="button">Convert</button>
+
+            <div class="half">
+                <input id="input" type="number">
+            </div>
+        </div>
+
+    </div>
+    <script src="tempreture.js"></script>
+</body>
+
+</html>

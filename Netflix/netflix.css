@@ -1,0 +1,430 @@
+html{
+    font-size: 100%;
+}
+body{
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    padding-left: 0;
+}
+.main{
+    position: relative;
+    background:rgba(0,0,0,0.6)url("NetflixBacground.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top{
+    position: absolute;
+    width:100%;
+    height: 7rem;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+}
+svg{
+    position: absolute;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    left:4rem;
+    top:2rem;
+    width:10rem;
+}
+.top button{
+    position: absolute;
+    font-size: 1.3vw;
+    right:8rem;
+    top:2rem;
+    width:7rem;
+    height: 2.7rem;
+    background-color: rgb(230, 19, 19);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.top button:hover{
+    background-color: rgb(190, 19, 19);;
+}
+.top .option{
+    position: absolute;
+    font-size: 1.3vw;
+    right:17rem;
+    width:9rem;
+    top:2rem;
+    height: 2.7rem;
+    border: none;
+    color:white;
+    background-color:rgba(20, 20, 20, 0.7);
+    border:0.5px solid rgb(180, 167, 167);
+    border-radius: 5px ;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.center{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  width:100%;
+  background-color: transparent;
+  color: white;
+  height: 100vh;
+  top:11rem;
+  z-index: 0;
+}
+.center h3{
+    position:relative;
+    display: block;
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight: 500;
+    left:14vw;
+    top:0.3rem;
+    word-spacing: 0.5rem;
+}
+h4{
+    position: absolute;
+    bottom:32vw;
+}
+.half{
+    font-size: 2.8rem;
+    font-weight: 900;
+    top:4vw;
+    display: block;
+    left:35%;
+    word-spacing: 0.5rem;
+    
+}
+.sec{
+    position: relative;
+    /* bottom: 8rem; */
+    top:12vw;
+    right:31vw;
+    font-weight: 300;
+    font-size:1.4rem;
+}
+ .sec1{
+    position: absolute;
+    left:20vw;
+    top:15vw;
+    font-size:1.4rem;
+    font-weight: 300;
+} 
+.center .text{
+    position: absolute;
+    bottom: 1rem;
+    left:27%;
+    width: 23rem;
+    height: 3.1rem;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.6);
+    border: 0.2px solid rgb(136, 130, 130);
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+}
+.text::placeholder{
+    font-size: 1rem;
+    position: relative;
+    left:1rem;
+    font-weight: 600;
+}
+
+.divs{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.images
+{
+    display: flex;
+}
+.next {
+    position: absolute;
+    width:100%;
+    top:0.5vw;
+    height: 50vw;
+    background-color:black;
+}
+.next img{
+    position: relative;
+    top:8vw;
+    width:41vw;
+}
+.nextcontent{
+    position: relative;
+    bottom:25vw;
+}
+
+.nextcontent h3{
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    font-size: 3rem;
+    top:5rem;
+    right:19rem;
+    font-weight: 1000;
+    color:white;
+}
+.nextcontent p{
+    position: absolute;
+    right:15rem;
+    top:20rem;
+    font-size:1.43rem;
+    
+}
+.next1
+{   
+    position: relative;
+    width:100vw;
+    top:51vw;
+    height: 50vw;
+    background-color:black;
+    z-index:1;
+}
+.next1 img{
+    position: relative;
+    top:15vw;
+    left:50rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 0px 6px white);
+    width:26rem;
+}
+.next1 h3{
+    position: absolute;
+    font-size: 3rem;
+    top:13vw;
+    font-weight:1000 ;
+    left:9rem;
+    
+}
+.next1 p{
+    position: absolute;
+    font-size:1.5rem;
+    top:20vw;
+    left:9rem;
+
+}
+.next2{
+    position: absolute;
+    background-color: black;
+    width:100%;
+    height: 50vw;
+    z-index:2;
+    top:101.5vw;
+
+}
+.next2 img{
+    position: relative;
+    width:40vw;
+    top:10vw;
+    filter: drop-shadow(0px 0px 6px rgb(230, 19, 19));
+}
+.next2 h3{
+    position: relative;
+    display: inline;
+    z-index: 1;
+    font-size: 3rem;
+    bottom:10vw;
+    left:12vw;
+    font-weight: 1000;
+    color:white;
+}
+.next2 p{
+    position: relative;
+    left:50rem;
+    bottom:10rem;
+    font-size:1.5rem;
+}
+.next3{
+    position: absolute;
+    background-color: black;
+    width:100%;
+    height: 50vw;
+    z-index:2;
+    top:152vw;
+}
+.next3 img{
+    position: relative;
+    width:26rem;
+    justify-content: center;
+    left:52rem;
+    width:33rem;
+    top:10vw;
+
+}
+.next3 h3{
+    position: absolute;
+    font-size: 3rem;
+    top:12vw;
+    font-weight:1000 ;
+    left:9rem;
+}
+.next3 p{
+    position: absolute;
+    font-size:1.5rem;
+    top:25vw;
+    left:9rem;
+}
+.content1{
+    position: relative;
+    z-index: 0;
+    width:50rem;
+    height: 50vw;
+    left: 40rem;
+    background-color: black;
+}
+.content1 img{
+    position: absolute;
+    width:60%;
+    right:55rem;
+    top:15vw;
+    border-radius: 0.0725;
+    filter: drop-shadow(0px 0px 8px white);
+    
+}
+.content1 h3{
+    position: relative;
+}
+.content1 .sec1{
+    position: absolute;
+    top:15rem;
+    left:4rem;
+
+}
+.next4{
+    position: absolute;
+    width:100%;
+    height:50vw;
+    background-color: black;
+    top:202.5vw;
+}
+
+.next4 h4{
+    position: relative;
+    left:18rem;
+}
+.next4 h3{
+    position: absolute;
+    font-size: 3rem;
+    top:9rem;
+    font-weight:1000 ;
+    left:20rem;
+}
+
+.text2{
+    position: absolute;
+    /* bottom: 5rem; */
+    top:21vw;
+    left:24vw;
+    width: 30vw;
+    height: 3.6rem;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 0.2px solid rgb(136, 130, 130);
+    border-radius: 0.185rem;
+    color:white; 
+    font-size: 1.5vw;
+}
+.text2::placeholder{
+    font-size: 1.5vw;
+    font-weight: 500;
+    position: relative;
+    left:1rem;
+    font-weight: 600;
+    opacity: .4;
+}
+.getstarted2{
+    position: absolute;
+    height:4vw;
+    width: 13rem;
+    top:21vw;
+    right: 28vw;
+    margin-left:12vw;
+    font-size: 1.56rem;
+    font-weight: 700;
+    background-color: rgb(245, 27, 16); 
+    border: none;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.getstarted2:hover{
+    background-color:rgb(170, 13, 2); 
+}
+.text1{
+    position: absolute;
+    bottom: 19.8vw;
+    left:10%;
+    width: 25vw;
+    height: 4vw;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 0.2px solid rgb(136, 130, 130);
+    border-radius: 0.185rem;
+    color:white; 
+    font-size: 1.5vw;
+}
+.text1::placeholder{
+    font-size: 1.5vw;
+    opacity: .4;
+    font-weight: 500;
+    position: relative;
+    left:1rem;
+    font-weight: 600;
+    
+}
+
+.getstarted1{
+    position: absolute;
+    height:4vw;
+    width: 15vw;
+    bottom: 20vw;
+    left:32vw;
+    font-size: 1.9rem;
+    font-weight: 700;
+    background-color: rgb(230, 19, 19); 
+    border: none;
+    color:white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.getstarted1:hover{
+    background-color:rgb(170, 13, 2); 
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 70%;
+    }
+    
+}
+@media(max-width:750px){
+    html{
+        font-size: 50%;
+    }
+    
+}
+@media(max-width:400px){
+    html{
+        font-size: 30%;
+    }
+    .next,.next1,.next2,.next3,.next4{
+        position: relative;
+        top:auto;
+    }
+   
+}
+
